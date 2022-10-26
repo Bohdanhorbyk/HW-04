@@ -518,3 +518,44 @@ img {
   fill: var(--color-white);
   background-color: var(--color-accent);
 }
+
+.specifics-relative {
+  position: relative;
+}
+.specifics-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: var(--color-white);
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-relative {
+  position: relative;
+  overflow: hidden;
+}
+.portfolio-tex-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 24px;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  color: var(--color-white);
+  background-color: rgba(33, 150, 243, 0.9);
+  transition: transform var(--transition-duration) var(--transition-timing-function);
+  transition: transform 250ms;
+}
+.portfolio-link:hover .portfolio-tex-overlay {
+  transform: translateY(-100%);
+}
