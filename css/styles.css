@@ -654,7 +654,7 @@ img {
 }
 
 .form-field {
-  smargin-bottom: 30px;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
   width: 448px;
@@ -666,9 +666,16 @@ img {
 
 .form-field input {
   margin: 0;
-  padding: 6px 10px;
+  padding: px 10px;
   font-size: 18px;
 }
 .form-field input ::placeholder {
   color: rgba(117, 117, 117, 0.5);
+}
+.call-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 12px;
 }
