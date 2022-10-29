@@ -1,5 +1,3 @@
-14 lines (12 sloc)  415 Bytes
-
 (() => {
   const refs = {
     openModalBtn: document.querySelector("[data-modal-open]"),
