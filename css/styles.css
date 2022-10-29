@@ -654,10 +654,21 @@ img {
 }
 
 .form-field {
-  outline: 1px solid green;
-  margin-bottom: 30px;
+  smargin-bottom: 30px;
   display: flex;
   flex-direction: column;
   width: 448px;
   margin-left: 41px;
+}
+.form-field label {
+  margin-bottom: 4px;
+}
+
+.form-field input {
+  margin: 0;
+  padding: 6px 10px;
+  font-size: 18px;
+}
+.form-field input ::placeholder {
+  color: rgba(117, 117, 117, 0.5);
 }
