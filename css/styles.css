@@ -669,13 +669,25 @@ img {
   border-radius: 4px;
   outline: none;
 }
+.form-input:hover {
+  border-color: var(--color-accent);
+  cursor: pointer;
+}
+
+.form-input:hover + .icon {
+  border-color: var(--color-accent);
+  fill: var(--color-accent);
+  cursor: pointer;
+}
 .form-input:focus {
   border-color: var(--color-accent);
+  cursor: pointer;
 }
 
 .form-input:focus + .icon {
   border-color: var(--color-accent);
   fill: var(--color-accent);
+  cursor: pointer;
 }
 
 /* .form-control:focus-within .form-input {
